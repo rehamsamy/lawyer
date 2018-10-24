@@ -1,0 +1,330 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+
+        >
+
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_height="80sp"
+            android:id="@+id/image"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+
+
+            />
+        <LinearLayout
+            android:layout_below="@+id/image"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".update"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="5dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp">
+
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:background="#14bcd6"
+
+                    android:textColorHint="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text=" قضيه رقم: "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#aa11c4"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="32sp"
+                    android:background="@drawable/shape123"
+                    android:id="@+id/name1"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="اسم المدعي: "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="casual"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="32sp"
+                    android:background="@drawable/shape123"
+                    android:id="@+id/name2"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+
+
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="اسم الخصم :"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="casual"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/shape123"
+                    android:id="@+id/type"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+
+
+                    ></TextView>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="نوع القضية :"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="casual"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_margin="6dp"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/shape123"
+                    android:id="@+id/place"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="المحكمة :    "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="casual"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/shape123"
+                    android:id="@+id/advocacyNumber"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="رقم الدعوي :"
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="casual"
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+
+                >
+
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="28sp"
+                    android:background="@drawable/shape123"
+                    android:id="@+id/time"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text= "وقت الجلسة: "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                >
+                <TextView
+                    android:layout_width="100sp"
+                    android:layout_height="28sp"
+                    android:background="@drawable/shape123"
+                    android:id="@+id/date"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+
+
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="تاريخ الجلسة: "
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:fontFamily="casual"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="60dp"
+                android:layout_gravity="center"
+                >
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="تعديل "
+                    android:id="@+id/update"
+                    android:background="@drawable/shape"
+                    android:textColor="#f7f7f7"
+                    android:layout_gravity="center_horizontal"
+
+                    android:layout_marginTop="60sp"
+                    android:layout_marginRight="8dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="حذف "
+                    android:id="@+id/delete"
+                    android:background="@drawable/shape"
+                    android:textColor="#f7f7f7"
+                    android:layout_gravity="center_horizontal"
+
+                    android:layout_marginTop="60sp"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "279037478223",
+    "firebase_url": "https://final-37840.firebaseio.com",
+    "project_id": "final-37840",
+    "storage_bucket": "final-37840.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:279037478223:android:9c81bf3e14980d31",
+        "android_client_info": {
+          "package_name": "com.hpmcor.legal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "279037478223-rqdmeeu16ar2008qsjil8olchh9tdo7f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbOZn_tw-hbyGBtUZNOwKWEAJDFoYAaf0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      },
+      "admob_app_id": "ca-app-pub-5176080920659538~9687919738"
+    }
+  ],
+  "configuration_version": "1"
+}

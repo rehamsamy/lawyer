@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telephoneNumbers"
+    android:orientation="vertical"
+    android:layout_marginTop="20sp"
+    android:layout_marginRight="20sp"
+    android:layout_marginLeft="20sp"
+
+   >
+
+    <Button
+        android:id="@+id/cairo"
+        android:text="تليفونات مقر النقابة وغرف المحامين بالقاهرة"
+        android:textColor="#FFFDFC"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0"
+        android:layout_marginBottom="5dp"
+        android:onClick="cairo"
+        />
+
+    <Button
+        android:text="تليفونات مقر النقابة وغرف المحامين بالجيزة"
+        android:textColor="#FFFDFC"
+        android:textSize="17sp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0"
+        android:id="@+id/giza"
+        android:layout_marginBottom="5dp"
+        android:onClick="giza"
+        />
+    <Button
+
+        android:text="تليفونات مقر النقابة وغرف المحامين بالفيوم"
+        android:textColor="#FFFDFC"
+        android:textSize="17sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0"
+
+        android:id="@+id/fayoum"
+        android:layout_marginBottom="5dp"
+        android:onClick="fayoum"
+        />
+    <Button
+
+        android:text="تليفونات مقر النقابة وغرف المحامين باسيوط"
+        android:textColor="#FFFDFC"
+        android:textSize="17sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0"
+
+        android:id="@+id/asout"
+        android:layout_marginBottom="5dp"
+        android:onClick="asout"
+        />
+    <Button
+
+        android:text="تليفونات مقر النقابة وغرف المحامين بقنا"
+        android:textColor="#FFFDFC"
+        android:textSize="17sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0"
+        android:id="@+id/ena"
+        android:layout_marginBottom="5dp"
+        android:onClick="ena"
+        />
+    <Button
+
+        android:text="تليفونات مقر النقابة وغرف المحامين باسوان"
+        android:textColor="#FFFDFC"
+        android:textSize="17sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0"
+        android:id="@+id/aswan"
+        android:layout_marginBottom="5dp"
+        android:onClick="aswan"
+        />
+    <Button
+
+        android:text="تليفونات مقر النقابة وغرف المحامين بالدهقلية"
+        android:textColor="#FFFDFC"
+        android:textSize="17sp"
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="1"
+        android:shadowDy="1"
+        android:shadowRadius="0"
+
+        android:id="@+id/daha"
+        android:layout_marginBottom="5dp"
+        android:onClick="daha"
+        />
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lin"></RelativeLayout>
+
+
+</LinearLayout>

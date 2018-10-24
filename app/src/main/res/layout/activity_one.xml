@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".one"
+    android:id="@+id/list"
+    android:background="#eaf5f9"
+
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:columnWidth="100dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="25dp"
+    android:horizontalSpacing="12dp"
+
+    >
+
+</GridView>

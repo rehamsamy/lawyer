@@ -1,0 +1,154 @@
+<!--<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:background="@drawable/bbalan"-->
+
+
+    <!--&gt;-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/bbalan"
+    android:orientation="vertical"
+    >
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="بسم الله الرحمن الرحيم"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25sp"
+        android:layout_marginBottom="20sp"
+        android:id="@+id/text"
+        android:textColor="#0606cf"
+       android:layout_gravity="center"
+        />
+
+
+    <TextView
+
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="15sp"
+        android:foregroundGravity="center_vertical"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:maxLines="22"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="2dp"
+        android:text="الزملاء الزميلات الاعزاء
+الساده المحامون
+نتقدم اليكم هذا العام باجندة المحامي في شكل جديد راعينا فيها ان تحتوي علي معلومات تفيد
+ من يستخدمها
+ .....عنوانين النقابات الفرعية
+  وارقام تليفوناتها وأعضاء مجلس النقابة العامة
+   وأرقام تليفوناتها وكذلك تحتوي علي دليل اوراق المحضرين
+   واستعراض الاعمال الادارية المطلوبة خلال الاسبوع
+ ولان قانون المحامي هو السلاح الذي يحمي المحامي وسياه في عمله
+  فقد اوردنا المواد الوارة في القانون والتي تحتوي حقوق وواجبات المحامي"
+        android:textAlignment="center"
+        android:textColor="#1925b1"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/enter"
+        android:layout_below="@+id/text2"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonshape1"
+        android:text="دخول"
+        android:textColor="#fff"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="70dp"
+        android:layout_height="40sp"
+        android:layout_above="@+id/adView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-100dp"
+        android:background="@drawable/shape33"
+        android:onClick="show"
+        android:text="show" />
+
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+    ads:adSize="BANNER"
+    ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
+        >
+    </com.google.android.gms.ads.AdView>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+
+        >
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="25sp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/sendmail"
+
+            android:id="@+id/sendmail"
+            android:layout_gravity="left"/>
+
+
+
+        <Button
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+           android:layout_marginTop="25sp"
+
+
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/socialsharesymbol"
+
+            android:id="@+id/share"
+            android:layout_gravity="right"/>
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+<!--</ScrollView>-->

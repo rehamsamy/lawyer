@@ -1,0 +1,252 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffffff"
+        >
+
+        <ImageView
+            android:layout_width="80sp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_height="80sp"
+            android:id="@+id/image"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/tawkel"
+            />
+        <LinearLayout
+            android:layout_below="@+id/image"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".update"
+            android:orientation="vertical"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:gravity="right">
+
+            <LinearLayout
+                android:layout_marginTop="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+
+                <TextView
+                    android:id="@+id/number"
+                    android:layout_width="90dp"
+                    android:layout_height="30dp"
+                    android:background="#14bcd6"
+
+                    android:textColorHint="#000000" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:text=" توكيل رقم: "
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#aa11c4"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="30sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="32sp"
+                    android:background="@drawable/shape123"
+                    android:id="@+id/name1"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+                    android:layout_marginRight="10dp"
+
+
+                    />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="اسم الموكل: "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="casual"
+
+                    />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center"
+                >
+
+                <TextView
+                    android:layout_width="200sp"
+                    android:layout_height="32sp"
+
+                    android:id="@+id/name2"
+                    android:background="@drawable/shape123"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+
+
+                    />
+
+
+                <TextView
+                    android:layout_width="98dp"
+                    android:layout_height="wrap_content"
+                    android:text="عنوان الموكل:"
+                    android:textColor="#000000"
+                    android:textSize="17sp"
+                    android:fontFamily="casual"
+                    />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+
+
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/shape123"
+
+                    android:id="@+id/type"
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+
+
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="نوع التوكيل: "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="casual"
+                    />
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                android:gravity="center">
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="32dp"
+                    android:background="@drawable/shape123"
+
+                    android:id="@+id/from"
+
+                    android:paddingRight="10dp"
+                    android:textColor="#070bed"
+                    android:layout_marginRight="20sp"
+
+                    />
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="صادر من: "
+                    android:textColor="#000000"
+                    android:textSize="20sp"
+                    android:fontFamily="casual"
+
+                    />
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="تعديل "
+                android:id="@+id/update"
+                android:background="@drawable/shape"
+                android:textColor="#f7f7f7"
+                android:layout_gravity="center_horizontal"
+
+                android:layout_marginTop="60sp"
+                android:layout_marginRight="8dp"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="حذف "
+                android:id="@+id/delete"
+                android:background="@drawable/shape"
+                android:textColor="#f7f7f7"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60sp"/>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

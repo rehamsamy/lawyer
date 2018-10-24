@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hpmcor.legal">
+
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/laww"
+        android:label="@string/app_name"
+        android:logo="@drawable/book"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".one"
+            android:icon="@drawable/libra"
+            android:label="الخيارات"
+            android:parentActivityName=".MainActivity"
+            android:rotationAnimation="rotate" />
+        <activity
+            android:name=".two"
+            android:label="اضافة قضية"
+            android:parentActivityName=".adaya" />
+        <activity
+            android:name=".three"
+            android:label="اضافة موكل"
+            android:parentActivityName=".newm" />
+        <activity
+            android:name=".telephoneNumbers"
+            android:label="ارقام التليفونات"
+            android:parentActivityName=".one" />
+        <activity
+            android:name=".delete"
+            android:label="حذف قضية"
+            android:parentActivityName=".adaya" />
+        <activity android:name=".search" />
+        <activity
+            android:name=".update"
+            android:label="تعديل قضية"
+            android:parentActivityName=".adaya" />
+        <activity
+            android:name=".newm"
+            android:label="التوكيلات" />
+        <activity
+            android:name=".delete1"
+            android:label="حذف توكيل" />
+        <activity
+            android:name=".edit1"
+            android:label="تعيل توكيل" />
+        <activity
+            android:name=".tawkeel"
+            android:label="الموكلين" />
+        <activity android:name=".search1" />
+        <activity android:name=".galasat" />
+        <activity
+            android:name=".adaya"
+            android:label="القضايا" />
+        <activity
+            android:name=".viewcontent"
+            android:label="تعديل التوكيل "
+            android:parentActivityName=".newm" />
+        <activity
+            android:name=".telphonecontent"
+            android:label="التفاصيل"
+            android:parentActivityName=".telephoneNumbers" />
+        <activity
+            android:name=".adayaviewcontent"
+            android:label="جميع القضايا"
+            android:parentActivityName=".one" />
+        <activity
+            android:name=".viewcontent2"
+            android:label="تعديل القضية"
+            android:parentActivityName=".adaya" />
+        <activity
+            android:name=".calender"
+            android:label="جميع الجلسات"
+            android:parentActivityName=".one" />
+        <activity android:name=".people" />
+        <activity
+            android:name=".view1"
+            android:label="تفاصيل التوكيل"
+            android:parentActivityName=".newm" />
+        <activity
+            android:name=".view2"
+            android:label="تفاصيل القضية"
+            android:parentActivityName=".adaya" />
+        <activity android:name=".lawes" />
+        <activity android:name=".contents"></activity>
+    </application>
+
+</manifest>

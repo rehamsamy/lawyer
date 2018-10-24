@@ -1,0 +1,174 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".update"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:layout_margin="5dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+
+            <TextView
+                android:id="@+id/number"
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:background="#14bcd6"
+                android:hint="رقم القضية"
+                android:textColorHint="#000000" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:text="تعديل قضيه رقم: "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#aa11c4"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="6dp">
+
+            <EditText
+                android:layout_width="240sp"
+                android:layout_height="28sp"
+                android:background="#3ee6d5"
+                android:id="@+id/name"
+
+
+
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اسم الموكل: "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="casual"
+
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="6dp">
+
+            <EditText
+                android:layout_width="240sp"
+                android:layout_height="28sp"
+                android:background="#3ee6d5"
+                android:id="@+id/adress"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="عنوان الموكل:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="casual"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="6dp">
+
+
+
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="28dp"
+                android:background="#3ee6d5"
+                android:id="@+id/type"
+
+                ></EditText>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نوع التوكيل:"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="casual"
+                />
+
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="6dp">
+            <EditText
+                android:layout_width="240dp"
+                android:layout_height="28dp"
+                android:background="#3ee6d5"
+                android:id="@+id/from"
+                />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="صادر من :"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:fontFamily="casual"
+                />
+
+
+
+
+        </LinearLayout>
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تعديل "
+            android:id="@+id/update"
+            android:background="@drawable/shape"
+            android:textColor="#f7f7f7"
+            android:layout_gravity="center_horizontal"
+
+            android:layout_marginTop="60sp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

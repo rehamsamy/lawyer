@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+
+    
+    >
+
+
+
+    <item
+        android:id="@+id/day"
+        android:title="المكتب اليوم"
+
+        >
+
+    </item>
+
+
+    <item
+        android:id="@+id/new1"
+        android:title="اضافة توكيل"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/new2"
+        android:title="اضافة قضية"
+        >
+    </item>
+
+
+
+    <item
+
+        android:id="@+id/logout"
+        android:title="الخروج"
+        >
+
+    </item>
+
+
+
+
+    <item
+        android:id="@+id/itemsearch"
+        android:title="Search"
+        android:icon="@drawable/seaeche"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always|collapseActionView"
+        >
+
+
+
+    </item>
+
+
+
+
+
+
+</menu>
+
